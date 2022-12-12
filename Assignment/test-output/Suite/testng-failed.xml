@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Url" value="https://www.amazon.in/"/>
+  <test thread-count="1" parallel="classes" name="Test Chrome(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.Testscripts.TC_Search_01">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Setup"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.qa.Testscripts.TC_Search_01 -->
+    </classes>
+  </test> <!-- Test Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

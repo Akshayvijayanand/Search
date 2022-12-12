@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-12T12:15:35 IST" name="Suite" finished-at="2022-12-12T12:17:35 IST" duration-ms="120636">
+    <groups>
+    </groups>
+    <test started-at="2022-12-12T12:15:35 IST" name="Test Chrome" finished-at="2022-12-12T12:17:35 IST" duration-ms="120636">
+      <class name="com.qa.Testscripts.TC_Search_01">
+        <test-method is-config="true" signature="Setup(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Testscripts.TC_Search_01@32ee6fee]" started-at="2022-12-12T12:15:35 IST" name="Setup" finished-at="2022-12-12T12:17:18 IST" duration-ms="102869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="start()[pri:0, instance:com.qa.Testscripts.TC_Search_01@32ee6fee]" started-at="2022-12-12T12:17:18 IST" name="start" finished-at="2022-12-12T12:17:30 IST" duration-ms="11617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.qa.Testscripts.TC_Search_01@32ee6fee]" started-at="2022-12-12T12:17:30 IST" name="TearDown" finished-at="2022-12-12T12:17:35 IST" duration-ms="5569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.qa.Testscripts.TC_Search_01 -->
+    </test> <!-- Test Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
